@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test your psychic ability by guessing random words and calculating your Psychic Score.">
+  <title>Psychic Ability Test</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Psychic Ability Test</h1>
+    <div id="word-display" class="word-display">Waiting for words...</div>
+    <form id="guess-form">
+      <label for="guess1">Guess 1:</label>
+      <input type="text" id="guess1" name="guess1" maxlength="20" required autocomplete="off">
+      <label for="guess2">Guess 2:</label>
+      <input type="text" id="guess2" name="guess2" maxlength="20" required autocomplete="off">
+      <button type="submit" id="submit-button">Submit Selections</button>
+    </form>
+    <div id="score-display" class="score-display">Your Psychic Score: 0/0</div>
+    <a href="https://pixel-oracle.com/" target="_blank" rel="noopener noreferrer">Visit Pixel Oracle</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
