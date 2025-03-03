@@ -1,0 +1,89 @@
+/* Import Pixel Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  color: #0f0;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.word-display, .score-display {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+#guess-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  background-color: #333;
+  color: #0f0;
+  border: 2px solid #0f0;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ff77;
+}
+
+a {
+  color: #0f0;
+  font-size: 12px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00ff77;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .word-display, .score-display {
+    font-size: 14px;
+  }
+
+  label, input, button {
+    font-size: 10px;
+  }
+}
